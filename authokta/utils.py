@@ -52,6 +52,7 @@ class Auth0Client:
         print("\n===== AUTH0 LOG RESPONSE =====")
         print("STATUS:", response.status_code)
         print("BODY:", response.text[:500])
+        
         print("==============================\n")
 
         try:
